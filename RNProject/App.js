@@ -29,6 +29,14 @@ export default class App extends Component<Props> {
   }
 }
 
+class Trial {
+  render(){
+    return (
+      <View></View>
+    );
+  }
+}
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
