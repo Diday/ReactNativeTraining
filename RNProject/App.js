@@ -3,6 +3,9 @@
  * https://github.com/facebook/react-native
  *
  * @format
+ dasdasd
+ asdasdas
+
  * @flow
  Diday
  */
@@ -26,6 +29,14 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
       </View>
+    );
+  }
+}
+
+class Trial {
+  render(){
+    return (
+      <View></View>
     );
   }
 }
